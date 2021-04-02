@@ -109,7 +109,7 @@ class HTTPClient:
         self.proxy_auth = proxy_auth
         self.use_clock = not unsync_clock
 
-        user_agent = 'DISCORD IOS'
+        user_agent = 'ios'
         self.user_agent = user_agent.format(__version__, sys.version_info, aiohttp.__version__)
 
     def recreate(self):
